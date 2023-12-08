@@ -6,6 +6,5 @@ public:
         for(int i=0;i<n;i++)
             s1+=nums[i];
         return (s2-s1);
-        
     }
 };
