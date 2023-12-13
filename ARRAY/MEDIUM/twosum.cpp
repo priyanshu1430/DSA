@@ -16,3 +16,23 @@ string read(int n, vector<int> book, int target)
    return("NO");
 }
 
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int n=nums.size();
+        map<int,int> mpp;
+        vector<int> str;
+        for(int i=0;i<n;i++)
+        {
+            int num=nums[i];
+            int rem=target-num;
+            if(mpp.find(rem)!=mpp.end())
+            {
+                return {mpp[rem],i};
+            }
+            mpp[num]=i;
+        }
+        return{-1,-1};
+ 
+    }
+};
