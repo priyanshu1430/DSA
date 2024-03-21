@@ -10,6 +10,12 @@
         "stacktrace": "cpp",
         "regex": "cpp",
         "valarray": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "barrier": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "latch": "cpp",
+        "limits": "cpp",
+        "semaphore": "cpp"
     }
 }
